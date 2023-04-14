@@ -58,12 +58,12 @@ To search a particular word from the given file
 5. gedit filename =>to edit text
 
 
-**Creating multiple users and setting password**
-- Command : sudo useradd 'username'
-            sudo passwd  'xxxxx'
-            To change password
-            New password :
-            Retype new password : 
+**Creating multiple users and setting password** 
+- sudo useradd 'username'
+- sudo passwd  'xxxxx'
+- To change password
+-New password :
+-Retype new password : 
 
 **File permission**
 To view the permissions given for the file
@@ -80,12 +80,10 @@ x = execute
 To change permissions
 - Command : chmod
 
-- eg : assume u => user
-            g => group
-            o => other people
+- eg : assume u => user, g => group, o => other people
+1. Desktop chmod o+w file 1 (permission to write)
+2. Desktop chmod g+r file 1 (permission to read)
 
-     Desktop chmod o+w file 1 (permission to write)
-     Desktop chmod g+r file 1 (permission to read)
 To remove the permission
 - eg : Desktop chmod o-w file 1
 
