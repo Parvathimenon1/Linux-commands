@@ -5,11 +5,17 @@
 The folder system in Linux is referred to as directories.
 A directory is a file whose sole purpose is to store file names and the information that goes with them. 
 Some of them are -
+
 /dev - Contains special files for I/O devices.
+
 /etc - Contains files for system initialization and system management.
+
 /home - Contains login directories for the system users.
+
 /tmp - Contains files that are temporary and are automatically deleted after a specified number of days.
+
 /usr - Contains the lpp, include, and other system directories.
+
 /usr/bin - Contains user-executable programs.
 
  **Commands and its working**
@@ -66,18 +72,27 @@ To search a particular word from the given file
 -Retype new password : 
 
 **File permission**
+
 To view the permissions given for the file
 
 1. open a directory
    eg : desktop ls -l
    => -rwrw-rw-r--
+
    => drwxrwxr-x
+
 - = - indicates that it is a file
+
 d = d indicates that it is a directory
+
 r = read
+
 w = write
+
 x = execute
+
 To change permissions
+
 - Command : chmod
 
 - eg : assume u => user, g => group, o => other people
